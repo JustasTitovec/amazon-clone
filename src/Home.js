@@ -19,10 +19,10 @@ function Home() {
           image="https://images-na.ssl-images-amazon.com/images/I/61pCZHNb6iL._AC_SL1500_.jpg"
         />
         <Product
-          id="12123124312"
+          id="223344"
           title="Samsung Galaxy Watch smartwatch (46mm, GPS, Bluetooth) – Silver/Black (US Version with Warranty)"
-          price={11.96}
-          rating={5}
+          price={1666}
+          rating={3}
           image="https://images-na.ssl-images-amazon.com/images/I/61pCZHNb6iL._AC_SL1500_.jpg"
         />
       </div>
