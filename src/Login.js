@@ -11,7 +11,7 @@ export default function Login() {
   const login = e => {
     e.preventDefault();
     auth
-      .isSignInWithEmailAndPassword(email, password)
+      .signInWithEmailAndPassword(email, password)
       .then(auth => {
         history.push('/');
       })
