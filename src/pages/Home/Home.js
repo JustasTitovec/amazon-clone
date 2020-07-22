@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
-import Product from './Product.js';
+import Product from '../../components/Product/Product.js';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (

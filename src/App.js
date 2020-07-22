@@ -1,15 +1,17 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Header from './Header';
-import Home from './Home.js';
-import Checkout from './Checkout';
-import Login from './Login.js';
-import { useStateValue } from './StateProvider.js';
+import Header from '../src/components/Header/Header';
+import Home from './pages/Home/Home.js';
+import Checkout from './pages/Checkout/Checkout.js';
+import Login from './pages/Login/Login.js';
+import { useStateValue } from './state/StateProvider';
 import { auth } from './firebase';
+import Footer from '../src/components/Footer/Footer';
+import Details from '../src/components/Details/Details';
 
 function App() {
-  const [{ user }, dispatch] = useStateValue();
+  const [dispatch] = useStateValue();
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged(authUser => {
@@ -34,16 +36,24 @@ function App() {
     <Router>
       <div className="app">
         <Switch>
-          <Route path="/checkout">
+          <Route exact path="/checkout">
             <Header />
             <Checkout />
+            <Footer />
           </Route>
-          <Route path="/login">
+          <Route exact path="/details/:id">
+            <Header />
+            <Details />
+            <Footer />
+          </Route>
+
+          <Route exact path="/login">
             <Login />
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Header />
             <Home />
+            <Footer />
           </Route>
         </Switch>
       </div>
