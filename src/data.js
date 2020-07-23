@@ -6,7 +6,18 @@ export default {
         'Samsung Galaxy Watch smartwatch (46mm, GPS, Bluetooth) – Silver/Black (US Version with Warranty)',
       price: 11.96,
       rating: 5,
-      image: 'https://www.amazon.com/images/I/81ZKNYBwYlL._AC_SL1500_.jpg'
+      image: 'https://www.amazon.com/images/I/81ZKNYBwYlL._AC_SL1500_.jpg',
+      details: [
+        'Live a stronger, smarter life with Galaxy Watch at your wrist. Rest well and stay active with built-in health tracking and a bluetooth connection that keeps everything at your wrist. Plus, go for days without charging',
+
+        'Go nonstop for days on a single charge. The wireless charger lets you power up without slowing down. (Average expected performance based on typical use. Results may vary.)',
+
+        'Available in two sizes and three colors, the Galaxy Watch offers stylish watch faces so realistic they hardly look digital. Plus, choose from a collection of interchangeable bands',
+
+        'Pairs with both Android and iOS smartphones via bluetooth connection.',
+
+        'Included in Box: Galaxy Watch, Additional Strap(Large and Small included), Wireless charging Dock, Travel Adaptor, Quick Start Guide, User Manual (Warranty: 1 Year Standard Parts and Labor)'
+      ]
     },
     {
       _id: '12321',
@@ -14,7 +25,18 @@ export default {
         'Samsung Galaxy Buds+ Plus, True Wireless Earbuds w/improved battery and call quality (Wireless Charging Case included), Black – US Version, SM-R175NZKAXAR',
       price: 89.94,
       rating: 5,
-      image: 'https://www.amazon.com/images/I/61Kndu-dTLL._AC_SL1500_.jpg'
+      image: 'https://www.amazon.com/images/I/61Kndu-dTLL._AC_SL1500_.jpg',
+      details: [
+        'Live a stronger, smarter life with Galaxy Watch at your wrist. Rest well and stay active with built-in health tracking and a bluetooth connection that keeps everything at your wrist. Plus, go for days without charging',
+
+        'Go nonstop for days on a single charge. The wireless charger lets you power up without slowing down. (Average expected performance based on typical use. Results may vary.)',
+
+        'Available in two sizes and three colors, the Galaxy Watch offers stylish watch faces so realistic they hardly look digital. Plus, choose from a collection of interchangeable bands',
+
+        'Pairs with both Android and iOS smartphones via bluetooth connection.',
+
+        'Included in Box: Galaxy Watch, Additional Strap(Large and Small included), Wireless charging Dock, Travel Adaptor, Quick Start Guide, User Manual (Warranty: 1 Year Standard Parts and Labor)'
+      ]
     },
     {
       _id: '6543',
@@ -22,7 +44,18 @@ export default {
         'AmazonBasics 8-Sheet Capacity, Cross-Cut Paper and Credit Card Shredder, 4.1 Gallon',
       price: 37.71,
       rating: 5,
-      image: 'https://www.amazon.com/images/I/71K7Q4FpguL._AC_SL1500_.jpg'
+      image: 'https://www.amazon.com/images/I/71K7Q4FpguL._AC_SL1500_.jpg',
+      details: [
+        'Live a stronger, smarter life with Galaxy Watch at your wrist. Rest well and stay active with built-in health tracking and a bluetooth connection that keeps everything at your wrist. Plus, go for days without charging',
+
+        'Go nonstop for days on a single charge. The wireless charger lets you power up without slowing down. (Average expected performance based on typical use. Results may vary.)',
+
+        'Available in two sizes and three colors, the Galaxy Watch offers stylish watch faces so realistic they hardly look digital. Plus, choose from a collection of interchangeable bands',
+
+        'Pairs with both Android and iOS smartphones via bluetooth connection.',
+
+        'Included in Box: Galaxy Watch, Additional Strap(Large and Small included), Wireless charging Dock, Travel Adaptor, Quick Start Guide, User Manual (Warranty: 1 Year Standard Parts and Labor)'
+      ]
     },
     {
       _id: '54232324',
@@ -30,7 +63,18 @@ export default {
         'Wyze Cam 1080p HD Indoor Wireless Smart Home Camera with Night Vision, 2-Way Audio',
       price: 25.98,
       rating: 4,
-      image: 'https://www.amazon.com/images/I/61B04f0ALWL._AC_SL1500_.jpg'
+      image: 'https://www.amazon.com/images/I/61B04f0ALWL._AC_SL1500_.jpg',
+      details: [
+        'Live a stronger, smarter life with Galaxy Watch at your wrist. Rest well and stay active with built-in health tracking and a bluetooth connection that keeps everything at your wrist. Plus, go for days without charging',
+
+        'Go nonstop for days on a single charge. The wireless charger lets you power up without slowing down. (Average expected performance based on typical use. Results may vary.)',
+
+        'Available in two sizes and three colors, the Galaxy Watch offers stylish watch faces so realistic they hardly look digital. Plus, choose from a collection of interchangeable bands',
+
+        'Pairs with both Android and iOS smartphones via bluetooth connection.',
+
+        'Included in Box: Galaxy Watch, Additional Strap(Large and Small included), Wireless charging Dock, Travel Adaptor, Quick Start Guide, User Manual (Warranty: 1 Year Standard Parts and Labor)'
+      ]
     },
     {
       _id: '67543',
@@ -38,7 +82,18 @@ export default {
         'iLuv TB100 Rose Gold True Wireless Earbuds Cordless in-Ear Bluetooth 5.0 with Hands-Free Call Microphone, IPX6 Waterproof Protection',
       price: 49.99,
       rating: 5,
-      image: 'https://www.amazon.com/images/I/71DL2xEn3KL._AC_SL1500_.jpg'
+      image: 'https://www.amazon.com/images/I/71DL2xEn3KL._AC_SL1500_.jpg',
+      details: [
+        'Live a stronger, smarter life with Galaxy Watch at your wrist. Rest well and stay active with built-in health tracking and a bluetooth connection that keeps everything at your wrist. Plus, go for days without charging',
+
+        'Go nonstop for days on a single charge. The wireless charger lets you power up without slowing down. (Average expected performance based on typical use. Results may vary.)',
+
+        'Available in two sizes and three colors, the Galaxy Watch offers stylish watch faces so realistic they hardly look digital. Plus, choose from a collection of interchangeable bands',
+
+        'Pairs with both Android and iOS smartphones via bluetooth connection.',
+
+        'Included in Box: Galaxy Watch, Additional Strap(Large and Small included), Wireless charging Dock, Travel Adaptor, Quick Start Guide, User Manual (Warranty: 1 Year Standard Parts and Labor)'
+      ]
     },
     {
       _id: '0994394',
@@ -46,7 +101,18 @@ export default {
         'Kindle E-reader (Previous Generation - 8th) - Black, 6 Display, Wi-Fi, Built-In Audible - Includes Special Offers',
       price: 59.99,
       rating: 4,
-      image: 'https://www.amazon.com/images/I/61%2BtYhgtgwL._AC_SX679_.jpg'
+      image: 'https://www.amazon.com/images/I/61%2BtYhgtgwL._AC_SX679_.jpg',
+      details: [
+        'Live a stronger, smarter life with Galaxy Watch at your wrist. Rest well and stay active with built-in health tracking and a bluetooth connection that keeps everything at your wrist. Plus, go for days without charging',
+
+        'Go nonstop for days on a single charge. The wireless charger lets you power up without slowing down. (Average expected performance based on typical use. Results may vary.)',
+
+        'Available in two sizes and three colors, the Galaxy Watch offers stylish watch faces so realistic they hardly look digital. Plus, choose from a collection of interchangeable bands',
+
+        'Pairs with both Android and iOS smartphones via bluetooth connection.',
+
+        'Included in Box: Galaxy Watch, Additional Strap(Large and Small included), Wireless charging Dock, Travel Adaptor, Quick Start Guide, User Manual (Warranty: 1 Year Standard Parts and Labor)'
+      ]
     },
     {
       _id: '85030349',
@@ -54,7 +120,18 @@ export default {
         'Fire TV Blaster - Add Alexa voice controls for power and volume on your TV and soundbar (requires compatible Fire TV and Echo devices)',
       price: 34.99,
       rating: 3,
-      image: 'https://www.amazon.com/images/I/51qkhImJaAL._AC_SL1000_.jpg'
+      image: 'https://www.amazon.com/images/I/51qkhImJaAL._AC_SL1000_.jpg',
+      details: [
+        'Live a stronger, smarter life with Galaxy Watch at your wrist. Rest well and stay active with built-in health tracking and a bluetooth connection that keeps everything at your wrist. Plus, go for days without charging',
+
+        'Go nonstop for days on a single charge. The wireless charger lets you power up without slowing down. (Average expected performance based on typical use. Results may vary.)',
+
+        'Available in two sizes and three colors, the Galaxy Watch offers stylish watch faces so realistic they hardly look digital. Plus, choose from a collection of interchangeable bands',
+
+        'Pairs with both Android and iOS smartphones via bluetooth connection.',
+
+        'Included in Box: Galaxy Watch, Additional Strap(Large and Small included), Wireless charging Dock, Travel Adaptor, Quick Start Guide, User Manual (Warranty: 1 Year Standard Parts and Labor)'
+      ]
     },
     {
       _id: '758493',
@@ -62,7 +139,18 @@ export default {
         'FAll-New Toshiba 32LF221U21 32-inch Smart HD 720p TV - Fire TV Edition, Released 2020',
       price: 149.99,
       rating: 4,
-      image: 'https://www.amazon.com/images/I/61piX33QmAL._AC_SL1000_.jpg'
+      image: 'https://www.amazon.com/images/I/61piX33QmAL._AC_SL1000_.jpg',
+      details: [
+        'Live a stronger, smarter life with Galaxy Watch at your wrist. Rest well and stay active with built-in health tracking and a bluetooth connection that keeps everything at your wrist. Plus, go for days without charging',
+
+        'Go nonstop for days on a single charge. The wireless charger lets you power up without slowing down. (Average expected performance based on typical use. Results may vary.)',
+
+        'Available in two sizes and three colors, the Galaxy Watch offers stylish watch faces so realistic they hardly look digital. Plus, choose from a collection of interchangeable bands',
+
+        'Pairs with both Android and iOS smartphones via bluetooth connection.',
+
+        'Included in Box: Galaxy Watch, Additional Strap(Large and Small included), Wireless charging Dock, Travel Adaptor, Quick Start Guide, User Manual (Warranty: 1 Year Standard Parts and Labor)'
+      ]
     },
     {
       _id: '290348329048',
@@ -70,7 +158,18 @@ export default {
         'WD 12TB Elements Desktop Hard Drive, USB 3.0 - WDBWLG0120HBK-NESN"',
       price: 169.99,
       rating: 5,
-      image: 'https://www.amazon.com/images/I/716SVGVhQML._AC_SL1500_.jpg'
+      image: 'https://www.amazon.com/images/I/716SVGVhQML._AC_SL1500_.jpg',
+      details: [
+        'Live a stronger, smarter life with Galaxy Watch at your wrist. Rest well and stay active with built-in health tracking and a bluetooth connection that keeps everything at your wrist. Plus, go for days without charging',
+
+        'Go nonstop for days on a single charge. The wireless charger lets you power up without slowing down. (Average expected performance based on typical use. Results may vary.)',
+
+        'Available in two sizes and three colors, the Galaxy Watch offers stylish watch faces so realistic they hardly look digital. Plus, choose from a collection of interchangeable bands',
+
+        'Pairs with both Android and iOS smartphones via bluetooth connection.',
+
+        'Included in Box: Galaxy Watch, Additional Strap(Large and Small included), Wireless charging Dock, Travel Adaptor, Quick Start Guide, User Manual (Warranty: 1 Year Standard Parts and Labor)'
+      ]
     }
   ]
 };

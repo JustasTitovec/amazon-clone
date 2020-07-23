@@ -1,16 +1,68 @@
 import React from 'react';
-import { useStateValue } from '../../state/StateProvider';
-import Product from '../Product/Product';
 import data from '../../data.js';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
+import { useStateValue } from '../../state/StateProvider.js';
+import './Details.css';
 
-function Details({ id }) {
-  const [{ basket }, dispatch] = useStateValue();
-  console.log(data.products[0]._id);
-  const product = data.products;
+function Details(props) {
+  const [{}, dispatch] = useStateValue();
+
+  const product = data.products.find(x => x._id === props.match.params.id);
+
+  console.log(product.title);
+
+  const addToBasket = () => {
+    dispatch({
+      type: 'ADD_TO_BASKET',
+      item: {
+        id: product.id,
+        title: product.title,
+        image: product.image,
+        price: product.price,
+        rating: product.rating
+      }
+    });
+  };
 
   return (
     <div>
-      <h1>{product.title}</h1>
+      <Header />
+      <div className="details">
+        <div className="details__images">
+          <img src={product.image} alt="watch" />
+        </div>
+        <div className="details__info">
+          <div className="details__title">
+            <p>{product.title}</p>
+            <p className="details__price">
+              <small>$</small>
+              <strong>{product.price}</strong>
+            </p>
+            <div className="details__rating">
+              {' '}
+              {Array(product.rating)
+                .fill()
+                .map(_ => (
+                  <p>⭐️</p>
+                ))}
+            </div>
+          </div>
+          <div className="details__description">
+            <p>
+              {product.details.map(detail => {
+                return (
+                  <ul>
+                    <li>{detail}</li>
+                  </ul>
+                );
+              })}
+            </p>
+          </div>
+          <button onClick={addToBasket}>Add to basket</button>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }

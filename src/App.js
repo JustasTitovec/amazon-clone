@@ -41,11 +41,11 @@ function App() {
             <Checkout />
             <Footer />
           </Route>
-          <Route exact path="/details/:id">
-            <Header />
-            <Details />
-            <Footer />
-          </Route>
+          <Route
+            exact
+            path="/details/:id"
+            render={props => <Details {...props} />}
+          ></Route>
           <Route exact path="/login">
             <Login />
           </Route>
