@@ -2,7 +2,6 @@ import React from 'react';
 import './Product.css';
 import { useStateValue } from '../../state/StateProvider.js';
 import { Link } from 'react-router-dom';
-import Checkout from '../../pages/Checkout/Checkout';
 
 function Product({ id, title, image, price, rating }) {
   const [{}, dispatch] = useStateValue();

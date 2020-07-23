@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
-import Product from '../../components/Product/Product.js';
-import { Link } from 'react-router-dom';
+import Product from '../../components/Product/Product';
+import data from '../../data.js';
 
 function Home() {
   return (
@@ -13,8 +13,8 @@ function Home() {
       />
       <div className="home__row">
         <Product
-          id="12123124312"
-          title="Samsung Galaxy Watch smartwatch (46mm, GPS, Bluetooth) – Silver/Black (US Version with Warranty)"
+          id={data.products[0]._id}
+          title={data.products[0].title}
           price={11.96}
           rating={5}
           image="https://www.amazon.com/images/I/81ZKNYBwYlL._AC_SL1500_.jpg"

@@ -23,19 +23,19 @@ function Footer() {
                 <a href="/">Careers</a>
               </li>
               <li>
-                <a href="/">Careers</a>
+                <a href="/">Blog</a>
               </li>
               <li>
-                <a href="/">Careers</a>
+                <a href="/">About Amazon</a>
               </li>
               <li>
-                <a href="/">Careers</a>
+                <a href="/">Investor Relations</a>
               </li>
               <li>
-                <a href="/">Careers</a>
+                <a href="/">Amazon Devices</a>
               </li>
               <li>
-                <a href="/">Careers</a>
+                <a href="/">Amazon Tours</a>
               </li>
             </ul>
           </div>
