@@ -1,9 +1,13 @@
 .details {
   display: flex;
   height: 100%;
+  justify-content: space-around;
+  background-color: white;
 }
 
 .details__images img {
+  object-fit: contain;
+
   height: 620px;
   width: 450px;
   padding: 35px 0px;
@@ -19,7 +23,16 @@
   font-weight: 500;
 }
 
+.details__price {
+  margin-top: 15px;
+
+  font-size: 18px;
+}
+
 .details__description {
+  margin-top: 15px;
+  line-height: 20px;
+
   font-size: 13px;
 }
 
@@ -30,8 +43,9 @@
   margin: 20px;
 }
 
-.button {
+.details__info > button {
   width: 100px;
+  margin-top: 15px;
   height: 30px;
   background-color: #f0c14b;
   border: 1px solid;

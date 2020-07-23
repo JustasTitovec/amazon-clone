@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import data from '../../data.js';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
@@ -7,6 +7,10 @@ import './Details.css';
 
 function Details(props) {
   const [{}, dispatch] = useStateValue();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const product = data.products.find(x => x._id === props.match.params.id);
 
@@ -35,10 +39,6 @@ function Details(props) {
         <div className="details__info">
           <div className="details__title">
             <p>{product.title}</p>
-            <p className="details__price">
-              <small>$</small>
-              <strong>{product.price}</strong>
-            </p>
             <div className="details__rating">
               {' '}
               {Array(product.rating)
@@ -47,6 +47,10 @@ function Details(props) {
                   <p>⭐️</p>
                 ))}
             </div>
+            <p className="details__price">
+              <small>$</small>
+              <strong>{product.price}</strong>
+            </p>
           </div>
           <div className="details__description">
             <p>

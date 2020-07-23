@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Home.css';
 import Product from '../../components/Product/Product';
 import { Link } from 'react-router-dom';
@@ -6,6 +6,10 @@ import { Link } from 'react-router-dom';
 import data from '../../data.js';
 
 function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="home">
       <img
