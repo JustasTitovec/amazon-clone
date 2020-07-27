@@ -2,9 +2,8 @@ import React from 'react';
 import './Product.css';
 import { useStateValue } from '../../state/StateProvider.js';
 import { Link } from 'react-router-dom';
-import { useParams } from 'react-router';
 
-function Product({ id, title, image, price, rating, details }) {
+function Product({ id, title, image, price, rating }) {
   const [{}, dispatch] = useStateValue();
 
   const addToBasket = () => {

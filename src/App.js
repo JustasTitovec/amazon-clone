@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Header from '../src/components/Header/Header';
@@ -50,7 +50,6 @@ function App() {
             <Login />
           </Route>
           <Route exact path="/">
-            <Header />
             <Home />
             <Footer />
           </Route>

@@ -7,10 +7,27 @@
 
 .details__images img {
   object-fit: contain;
-
   height: 620px;
   width: 450px;
   padding: 35px 0px;
+}
+
+.details__gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+.details__gallery > img {
+  object-fit: contain;
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+
+.details__gallery > img:hover {
+  cursor: pointer;
 }
 
 .details__rating {

@@ -6,7 +6,17 @@ export default {
         'Samsung Galaxy Watch smartwatch (46mm, GPS, Bluetooth) – Silver/Black (US Version with Warranty)',
       price: 11.96,
       rating: 5,
-      image: 'https://www.amazon.com/images/I/81ZKNYBwYlL._AC_SL1500_.jpg',
+      image: [
+        'https://www.amazon.com/images/I/81ZKNYBwYlL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/61pCZHNb6iL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/51HTZCW2eoL._AC_SL1000_.jpg',
+        'https://www.amazon.com/images/I/611EsK7rWIL._AC_SL1000_.jpg',
+        'https://www.amazon.com/images/I/51ngSPIJVGL._AC_SL1000_.jpg',
+        'https://www.amazon.com/images/I/61k5EGMnPAL._AC_SL1000_.jpg'
+      ],
       details: [
         'Live a stronger, smarter life with Galaxy Watch at your wrist. Rest well and stay active with built-in health tracking and a bluetooth connection that keeps everything at your wrist. Plus, go for days without charging',
 
@@ -24,8 +34,13 @@ export default {
       title:
         'Samsung Galaxy Buds+ Plus, True Wireless Earbuds w/improved battery and call quality (Wireless Charging Case included), Black – US Version, SM-R175NZKAXAR',
       price: 89.94,
-      rating: 5,
-      image: 'https://www.amazon.com/images/I/61Kndu-dTLL._AC_SL1500_.jpg',
+      rating: 2,
+      image: [
+        'https://www.amazon.com/images/I/61Kndu-dTLL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+      ],
       details: [
         'Exactly what you want to hear. Galaxy Buds+ are the perfect fitting earbuds to isolate you from distracting noises, so you can stay focused on what you want. And if you’d like to filter in some of the outside world to be more in-tune with your surroundings, you can switch on Ambient Aware2. Hear flight announcements, oncoming traffic or your order number while still enjoying your favorite playlist or podcast.',
 
@@ -44,7 +59,12 @@ export default {
         'AmazonBasics 8-Sheet Capacity, Cross-Cut Paper and Credit Card Shredder, 4.1 Gallon',
       price: 37.71,
       rating: 5,
-      image: 'https://www.amazon.com/images/I/71K7Q4FpguL._AC_SL1500_.jpg',
+      image: [
+        'https://www.amazon.com/images/I/71K7Q4FpguL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+      ],
       details: [
         'Cross-cut shred size: turns paper into small confetti-like pieces measuring 3/16 by 1-27/32 inches (5 by 47 mm); meets security level P-3 standards',
 
@@ -65,7 +85,12 @@ export default {
         'Wyze Cam 1080p HD Indoor Wireless Smart Home Camera with Night Vision, 2-Way Audio',
       price: 25.98,
       rating: 4,
-      image: 'https://www.amazon.com/images/I/61B04f0ALWL._AC_SL1500_.jpg',
+      image: [
+        'https://www.amazon.com/images/I/61B04f0ALWL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+      ],
       details: [
         '1080P Full HD live stream direct to your smartphone day or night with night vision (up to 30 feet away). works with 2. 4GHz Wi-Fi networks (does not support 5GHz Wi-Fi)',
 
@@ -88,7 +113,12 @@ export default {
         'iLuv TB100 Rose Gold True Wireless Earbuds Cordless in-Ear Bluetooth 5.0 with Hands-Free Call Microphone, IPX6 Waterproof Protection',
       price: 49.99,
       rating: 5,
-      image: 'https://www.amazon.com/images/I/71DL2xEn3KL._AC_SL1500_.jpg',
+      image: [
+        'https://www.amazon.com/images/I/71DL2xEn3KL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+      ],
       details: [
         'TRUE WIRELESS AND ULTRA-LIGHT: Compact and ultra-lightweight, these cordless TWS bluetooth earbuds are perfect for workouts, runs, sports and gaming. The in-ear earphones are ergonomically designed to fit snug into each ear. The earbuds also include 3 sizes (large, medium, small) of soft, flexible ear tips to ensure a comfortable and secure fit. Say goodbye to wired earphone tangles and say hello to the freedom of movement!',
 
@@ -107,7 +137,12 @@ export default {
         'Kindle E-reader (Previous Generation - 8th) - Black, 6 Display, Wi-Fi, Built-In Audible - Includes Special Offers',
       price: 59.99,
       rating: 4,
-      image: 'https://www.amazon.com/images/I/61%2BtYhgtgwL._AC_SX679_.jpg',
+      image: [
+        'https://www.amazon.com/images/I/61%2BtYhgtgwL._AC_SX679_.jpg',
+        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+      ],
       details: [
         'A Certified Refurbished Kindle is refurbished, tested, and certified to look and work like new and comes with the same limited warranty as a new device.',
 
@@ -132,7 +167,12 @@ export default {
         'Fire TV Blaster - Add Alexa voice controls for power and volume on your TV and soundbar (requires compatible Fire TV and Echo devices)',
       price: 34.99,
       rating: 3,
-      image: 'https://www.amazon.com/images/I/51qkhImJaAL._AC_SL1000_.jpg',
+      image: [
+        'https://www.amazon.com/images/I/51qkhImJaAL._AC_SL1000_.jpg',
+        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+      ],
       details: [
         '【Android 9.0 OS & Super S905X3 Chip】Our android tv box equipped with Latest Android 9.0 OS, powered by newest S905X3 CPU, offers you more efficient, safer operation, better compatibility of the latest applications, so better user experience than other android tv box.',
 
@@ -151,7 +191,12 @@ export default {
         'FAll-New Toshiba 32LF221U21 32-inch Smart HD 720p TV - Fire TV Edition, Released 2020',
       price: 149.99,
       rating: 4,
-      image: 'https://www.amazon.com/images/I/61piX33QmAL._AC_SL1000_.jpg',
+      image: [
+        'https://www.amazon.com/images/I/61piX33QmAL._AC_SL1000_.jpg',
+        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+      ],
       details: [
         'Dimensions (W x H x D): TV without stand: 28.8 x 17.1 x 3.1 Inches, TV with stand: 28.8 x 19 x 6.8 Inches',
 
@@ -172,7 +217,12 @@ export default {
         'WD 12TB Elements Desktop Hard Drive, USB 3.0 - WDBWLG0120HBK-NESN"',
       price: 169.99,
       rating: 5,
-      image: 'https://www.amazon.com/images/I/716SVGVhQML._AC_SL1500_.jpg',
+      image: [
+        'https://www.amazon.com/images/I/716SVGVhQML._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+      ],
       details: [
         'Auto backup with included Western Digital backup software and Time Machine compatibility',
 

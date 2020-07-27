@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 import SearchIcon from '@material-ui/icons/Search';
@@ -6,7 +6,7 @@ import ShoppingBasket from '@material-ui/icons/ShoppingBasket';
 import { useStateValue } from '../../state/StateProvider.js';
 import { auth } from '../../firebase';
 
-function Header() {
+function Header(props) {
   const [{ basket, user }] = useStateValue();
 
   const login = user => {
@@ -23,7 +23,12 @@ function Header() {
         />
       </Link>
       <div className="header__search">
-        <input className="header__SearchInput" type="text" />
+        <input
+          className="header__SearchInput"
+          type="text"
+          value={props.value}
+          onChange={props.onChange}
+        />
         <SearchIcon className="header__searchIcon" />
       </div>
       <div className="header__nav">
@@ -53,7 +58,7 @@ function Header() {
         <div className="header__optionBasket">
           <ShoppingBasket />
           <span className="header__optionLineTwo header__basketCount">
-            {basket?.length}
+            {basket.length}
           </span>
         </div>
       </Link>

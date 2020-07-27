@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useStateValue } from '../../state/StateProvider';
 import './Checkout.css';
 import CheckoutProduct from '../../components/CheckoutProduct/CheckoutProduct';
@@ -6,6 +6,10 @@ import Subtotal from '../../Subtotal.js';
 
 function Checkout() {
   const [{ basket }, dispatch] = useStateValue();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="checkout">
@@ -15,7 +19,7 @@ function Checkout() {
           src="https://wordstream-files-prod.s3.amazonaws.com/s3fs-public/styles/simple_image/public/images/media/images/banner-ads-examples-ncino.jpg?_JotF4SJdrsbmNVSEUedOmFQSYXbxMaP&itok=rgCnuDLK"
           alt=""
         />
-        {basket?.length === 0 ? (
+        {basket.length === 0 ? (
           <div>
             <h2>Your Shopping Basket is empty</h2>
             <p>

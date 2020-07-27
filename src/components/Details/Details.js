@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import data from '../../data.js';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
@@ -14,8 +14,6 @@ function Details(props) {
 
   const product = data.products.find(x => x._id === props.match.params.id);
 
-  console.log(product.title);
-
   const addToBasket = () => {
     dispatch({
       type: 'ADD_TO_BASKET',
@@ -29,10 +27,22 @@ function Details(props) {
     });
   };
 
+  const changeImage = e => {
+    let activeIndex = e.target.getAttribute('index');
+    console.log(activeIndex);
+  };
+
   return (
     <div>
       <Header />
       <div className="details">
+        <div className="details__gallery">
+          {product.image.map((img, i) => {
+            return (
+              <img src={img} alt="watch" index={i} onClick={changeImage} />
+            );
+          })}
+        </div>
         <div className="details__images">
           <img src={product.image} alt="watch" />
         </div>
