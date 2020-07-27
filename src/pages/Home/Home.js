@@ -32,7 +32,7 @@ function Home() {
           alt="home"
         />
         <div className="home__row">
-          {searchResults.map(product => {
+          {searchResults.map((product, i) => {
             return (
               <Product
                 id={product._id}
@@ -40,8 +40,8 @@ function Home() {
                 price={product.price}
                 rating={product.rating}
                 image={product.image}
-                key={product._id}
                 details={product.details}
+                key={i}
               />
             );
           })}

@@ -37,9 +37,14 @@ export default {
       rating: 2,
       image: [
         'https://www.amazon.com/images/I/61Kndu-dTLL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+        'https://www.amazon.com/images/I/71B6MG1jHIL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71SwljxAczL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/91nAYMuIUyL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71kowoegeJL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/714yw5HvhAL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81z0g1K6P2L._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/91X6QDe--0L._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81Lo5SxtzQL._AC_SL1500_.jpg'
       ],
       details: [
         'Exactly what you want to hear. Galaxy Buds+ are the perfect fitting earbuds to isolate you from distracting noises, so you can stay focused on what you want. And if you’d like to filter in some of the outside world to be more in-tune with your surroundings, you can switch on Ambient Aware2. Hear flight announcements, oncoming traffic or your order number while still enjoying your favorite playlist or podcast.',
@@ -61,9 +66,14 @@ export default {
       rating: 5,
       image: [
         'https://www.amazon.com/images/I/71K7Q4FpguL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+        'https://www.amazon.com/images/I/81KpnYVtf3L._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81sFCVvVImL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81951NdcrZL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/61kd3rGGWKL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/61fMjX0gqyL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71LFr9moCSL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/31gsh%2Bo%2BQeL._AC_.jpg',
+        'https://www.amazon.com/images/I/91bfLSXk8JL._AC_SL1500_.jpg'
       ],
       details: [
         'Cross-cut shred size: turns paper into small confetti-like pieces measuring 3/16 by 1-27/32 inches (5 by 47 mm); meets security level P-3 standards',
@@ -87,9 +97,11 @@ export default {
       rating: 4,
       image: [
         'https://www.amazon.com/images/I/61B04f0ALWL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+        'https://www.amazon.com/images/I/61rf%2BqKogTL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/61Vyw3zxjdL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/61ZYNd8uXUL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/61%2BLRBhivUL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/61Fl0hL6k-L._AC_SL1500_.jpg'
       ],
       details: [
         '1080P Full HD live stream direct to your smartphone day or night with night vision (up to 30 feet away). works with 2. 4GHz Wi-Fi networks (does not support 5GHz Wi-Fi)',
@@ -114,10 +126,13 @@ export default {
       price: 49.99,
       rating: 5,
       image: [
-        'https://www.amazon.com/images/I/71DL2xEn3KL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+        'https://www.amazon.com/images/I/51Ezyk876CL._AC_SL1499_.jpg',
+        'https://www.amazon.com/images/I/71ATk1dVKoL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71MUJr-22TL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71l%2BGz3ZY5L._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71O-z6jrbWL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/61B44pOOqWL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71d8tACSCuL._AC_SL1500_.jpg'
       ],
       details: [
         'TRUE WIRELESS AND ULTRA-LIGHT: Compact and ultra-lightweight, these cordless TWS bluetooth earbuds are perfect for workouts, runs, sports and gaming. The in-ear earphones are ergonomically designed to fit snug into each ear. The earbuds also include 3 sizes (large, medium, small) of soft, flexible ear tips to ensure a comfortable and secure fit. Say goodbye to wired earphone tangles and say hello to the freedom of movement!',
@@ -139,9 +154,11 @@ export default {
       rating: 4,
       image: [
         'https://www.amazon.com/images/I/61%2BtYhgtgwL._AC_SX679_.jpg',
-        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+        'https://www.amazon.com/images/I/61vOeGUYwwL._AC_SL1000_.jpg',
+        'https://www.amazon.com/images/I/71QdmcLAYTL._AC_SL1000_.jpg',
+        'https://www.amazon.com/images/I/71F-f82Ac3L._AC_SL1000_.jpg',
+        'https://www.amazon.com/images/I/71IHYZgh4PL._AC_SL1000_.jpg',
+        'https://www.amazon.com/images/I/61QX0ypTt8L._AC_SL1000_.jpg'
       ],
       details: [
         'A Certified Refurbished Kindle is refurbished, tested, and certified to look and work like new and comes with the same limited warranty as a new device.',
@@ -168,10 +185,14 @@ export default {
       price: 34.99,
       rating: 3,
       image: [
-        'https://www.amazon.com/images/I/51qkhImJaAL._AC_SL1000_.jpg',
-        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+        'https://www.amazon.com/images/I/41fziVetM7L._AC_SL1000_.jpg',
+
+        'https://www.amazon.com/images/I/71C0GCPgwDL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/61oijJhnlqL._AC_SL1000_.jpg',
+        'https://www.amazon.com/images/I/61tB52PaBXL._AC_SL1000_.jpg',
+        'https://www.amazon.com/images/I/61gDdGeg7fL._AC_SL1000_.jpg',
+        'https://www.amazon.com/images/I/61HgeX7pCPL._AC_SL1000_.jpg',
+        'https://www.amazon.com/images/I/71CFGwzPbYL._AC_SL1500_.jpg'
       ],
       details: [
         '【Android 9.0 OS & Super S905X3 Chip】Our android tv box equipped with Latest Android 9.0 OS, powered by newest S905X3 CPU, offers you more efficient, safer operation, better compatibility of the latest applications, so better user experience than other android tv box.',
@@ -192,10 +213,14 @@ export default {
       price: 149.99,
       rating: 4,
       image: [
-        'https://www.amazon.com/images/I/61piX33QmAL._AC_SL1000_.jpg',
-        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+        'https://www.amazon.com/images/I/71YZlXXFktL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/710spG1y9HL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/818df-1MLcL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/61AVBXTyBbL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/81mT4gRFIgL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/61DWgNc6eoL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/618-UeAMjrL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/61FvRmtWs3L._AC_SL1500_.jpg'
       ],
       details: [
         'Dimensions (W x H x D): TV without stand: 28.8 x 17.1 x 3.1 Inches, TV with stand: 28.8 x 19 x 6.8 Inches',
@@ -219,9 +244,10 @@ export default {
       rating: 5,
       image: [
         'https://www.amazon.com/images/I/716SVGVhQML._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/81vW0jAzVfL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/71P0C5P3iDL._AC_SL1500_.jpg',
-        'https://www.amazon.com/images/I/81MCD0w9RNL._AC_SL1500_.jpg'
+        'https://www.amazon.com/images/I/710BHf95CTL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71jbynLs5CL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71QfAjFtkXL._AC_SL1500_.jpg',
+        'https://www.amazon.com/images/I/71hNUEj3eiL._AC_SL1500_.jpg'
       ],
       details: [
         'Auto backup with included Western Digital backup software and Time Machine compatibility',

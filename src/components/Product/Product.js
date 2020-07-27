@@ -28,11 +28,13 @@ function Product({ id, title, image, price, rating }) {
             <small>$</small>
             <strong>{price}</strong>
           </p>
-          <div className="product__rating">
+          <div className="product__rating" key={rating}>
             {Array(rating)
               .fill()
-              .map(_ => (
-                <p>⭐️</p>
+              .map((index, i) => (
+                <span role="img" aria-label="star" key={i}>
+                  ⭐️
+                </span>
               ))}
           </div>
         </div>

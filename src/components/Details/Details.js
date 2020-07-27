@@ -7,6 +7,7 @@ import './Details.css';
 
 function Details(props) {
   const [{}, dispatch] = useStateValue();
+  const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -29,7 +30,7 @@ function Details(props) {
 
   const changeImage = e => {
     let activeIndex = e.target.getAttribute('index');
-    console.log(activeIndex);
+    setActiveIndex(activeIndex);
   };
 
   return (
@@ -44,17 +45,18 @@ function Details(props) {
           })}
         </div>
         <div className="details__images">
-          <img src={product.image} alt="watch" />
+          <img src={product.image[activeIndex]} alt="watch" />
         </div>
         <div className="details__info">
           <div className="details__title">
             <p>{product.title}</p>
             <div className="details__rating">
-              {' '}
               {Array(product.rating)
                 .fill()
                 .map(_ => (
-                  <p>⭐️</p>
+                  <span role="img" aria-label="star">
+                    ⭐️
+                  </span>
                 ))}
             </div>
             <p className="details__price">
@@ -64,9 +66,9 @@ function Details(props) {
           </div>
           <div className="details__description">
             <p>
-              {product.details.map(detail => {
+              {product.details.map((detail, i) => {
                 return (
-                  <ul>
+                  <ul key={i}>
                     <li>{detail}</li>
                   </ul>
                 );

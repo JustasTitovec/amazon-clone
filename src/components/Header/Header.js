@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 import SearchIcon from '@material-ui/icons/Search';
@@ -34,7 +34,9 @@ function Header(props) {
       <div className="header__nav">
         <Link to={!user && '/login'} className="header__link">
           <div onClick={login} className="header__option">
-            <span className="header__optionLineOne">Hello {user?.email}</span>
+            <span className="header__optionLineOne">
+              Hello {user ? user.email : null}{' '}
+            </span>
             <span className="header__optionLineTwo">
               {user ? 'Sign out' : 'Sign in'}
             </span>
