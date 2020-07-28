@@ -11,7 +11,7 @@ import Footer from '../src/components/Footer/Footer';
 import Details from '../src/components/Details/Details';
 
 function App() {
-  const [dispatch] = useStateValue();
+  const [{ dispatch }] = useStateValue();
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged(authUser => {
@@ -30,7 +30,7 @@ function App() {
     return () => {
       unsubscribe();
     };
-  }, []);
+  }, [dispatch]);
 
   return (
     <Router>

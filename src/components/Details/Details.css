@@ -68,3 +68,8 @@
   border: 1px solid;
   border-color: #a88734 #9c7e31 #846a29;
 }
+
+.details__imageHover:hover {
+  cursor: pointer;
+  border-color: #e77600;
+}

@@ -1,6 +1,7 @@
 .checkoutProduct {
   display: flex;
   margin-bottom: 20px;
+  justify-content: space-between;
   margin-top: 20px;
 }
 
@@ -28,4 +29,6 @@
 .checkoutProduct__title {
   font-size: 17px;
   font-weight: 800;
+  color: #0066c0;
+  width: 650px;
 }

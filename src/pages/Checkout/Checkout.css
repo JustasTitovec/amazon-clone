@@ -1,13 +1,26 @@
 .checkout__ad {
   width: 100%;
   margin-bottom: 10px;
-  height: 100px;
+  height: 150px;
 }
 
 .checkout__title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
   margin-bottom: 20px;
   padding: 10px;
   border-bottom: 1px solid lightgrey;
+}
+
+.checkout__left {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.checkout__title > p {
+  font-size: 13px;
+  color: #565959;
 }
 
 .checkout {
@@ -15,4 +28,5 @@
   padding: 20px;
   background-color: white;
   height: max-content;
+  justify-content: space-between;
 }

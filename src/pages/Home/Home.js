@@ -31,6 +31,9 @@ function Home() {
           src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/March/Fuji_TallHero_ShipATW_Modified_en_US_2x._CB419795291_.jpg"
           alt="home"
         />
+        <div className="searchResults">
+          {searchResults.length === 0 && <h1>Product not found</h1>}
+        </div>
         <div className="home__row">
           {searchResults.map((product, i) => {
             return (

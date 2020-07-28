@@ -6,7 +6,7 @@ import { useStateValue } from '../../state/StateProvider.js';
 import './Details.css';
 
 function Details(props) {
-  const [{}, dispatch] = useStateValue();
+  const [{ basket }, dispatch] = useStateValue();
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
@@ -40,7 +40,14 @@ function Details(props) {
         <div className="details__gallery">
           {product.image.map((img, i) => {
             return (
-              <img src={img} alt="watch" index={i} onClick={changeImage} />
+              <img
+                className="details__imageHover"
+                src={img}
+                alt="watch"
+                index={i}
+                onMouseEnter={changeImage}
+                key={i}
+              />
             );
           })}
         </div>
@@ -53,8 +60,8 @@ function Details(props) {
             <div className="details__rating">
               {Array(product.rating)
                 .fill()
-                .map(_ => (
-                  <span role="img" aria-label="star">
+                .map((_, i) => (
+                  <span role="img" aria-label="star" key={i}>
                     ⭐️
                   </span>
                 ))}
@@ -64,16 +71,14 @@ function Details(props) {
               <strong>{product.price}</strong>
             </p>
           </div>
-          <div className="details__description">
-            <p>
-              {product.details.map((detail, i) => {
-                return (
-                  <ul key={i}>
-                    <li>{detail}</li>
-                  </ul>
-                );
-              })}
-            </p>
+          <div className="details__description" key={product.id}>
+            {product.details.map((detail, i) => {
+              return (
+                <ul key={detail[i]}>
+                  <li>{detail}</li>
+                </ul>
+              );
+            })}
           </div>
           <button onClick={addToBasket}>Add to basket</button>
         </div>
