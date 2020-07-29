@@ -3,7 +3,8 @@ import { useStateValue } from '../../state/StateProvider';
 import './Checkout.css';
 import CheckoutProduct from '../../components/CheckoutProduct/CheckoutProduct';
 import Subtotal from '../../components/Subtotal/Subtotal.js';
-import { Link } from 'react-router-dom';
+import CurrencyFormat from 'react-currency-format';
+import { getBasketTotal } from '../../content/reducer';
 
 function Checkout() {
   const [{ basket }, dispatch] = useStateValue();
@@ -43,7 +44,28 @@ function Checkout() {
               ))}
             </div>
           )}
+
+          {basket.length !== 0 ? (
+            <div className="checkout__subtotal">
+              <CurrencyFormat
+                renderText={value => (
+                  <>
+                    <p>
+                      Subtotal {basket.length} items:{' '}
+                      <strong>{`${value}`}</strong>
+                    </p>
+                  </>
+                )}
+                decimalScale={2}
+                value={getBasketTotal(basket)}
+                displayType="text"
+                thousandSeparator={true}
+                prefix={'$'}
+              />
+            </div>
+          ) : null}
         </div>
+
         {basket.length > 0 && (
           <div className="checkout__right">
             <Subtotal />

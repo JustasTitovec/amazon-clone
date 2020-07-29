@@ -34,14 +34,13 @@ function Header(props) {
       <div className="header__nav">
         <Link to={!user && '/login'} className="header__link">
           <div onClick={login} className="header__option">
-            <span className="header__optionLineOne">
-              Hello {user ? user.email : null}{' '}
-            </span>
+            <span className="header__optionLineOne">Hello {user?.email}</span>
             <span className="header__optionLineTwo">
               {user ? 'Sign out' : 'Sign in'}
             </span>
           </div>
         </Link>
+
         <Link to="/" className="header__link">
           <div className="header__option">
             <span className="header__optionLineOne">Return</span>
@@ -49,7 +48,7 @@ function Header(props) {
           </div>
         </Link>
       </div>
-      {/* Basket */}
+
       <Link className="header__link" to="/checkout">
         <div className="header__optionBasket">
           <ShoppingCartIcon />

@@ -2,7 +2,8 @@
   display: flex;
   margin-bottom: 20px;
   justify-content: space-between;
-  margin-top: 20px;
+  padding: 10px;
+  border-bottom: 1px solid lightgrey;
 }
 
 .checkoutProduct__image {
@@ -31,4 +32,13 @@
   font-weight: 800;
   color: #0066c0;
   width: 650px;
+}
+
+.checkoutProduct__title:hover {
+  color: #d69a00;
+  text-decoration: underline;
+}
+
+.checkoutProduct__price {
+  font-size: 17px;
 }
