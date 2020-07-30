@@ -13,6 +13,9 @@ const reducer = (state, action) => {
       return { ...state, user: action.user };
     case 'ADD_TO_BASKET':
       return { ...state, basket: [...state.basket, action.item] };
+    case 'UPDATE_QUANTITY':
+      return { ...state, quantity: action.item.quantity };
+
     case 'REMOVE_FROM_BASKET':
       let newBasket = [...state.basket];
 

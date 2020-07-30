@@ -3,7 +3,7 @@ import './Product.css';
 import { useStateValue } from '../../state/StateProvider.js';
 import { Link } from 'react-router-dom';
 
-function Product({ id, title, image, price, rating }) {
+function Product({ id, title, image, price, rating, quantity }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
@@ -14,7 +14,8 @@ function Product({ id, title, image, price, rating }) {
         title: title,
         image: image,
         price: price,
-        rating: rating
+        rating: rating,
+        quantity: quantity
       }
     });
   };

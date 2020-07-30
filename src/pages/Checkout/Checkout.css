@@ -13,6 +13,22 @@
   border-bottom: 1px solid lightgrey;
 }
 
+.checkout__emptyBasket {
+  display: flex;
+}
+
+.checkout__emptyBasket > h2 {
+  font-size: 21px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.checkout__emptyBasket > img {
+  width: 340px;
+  height: 200px;
+  object-fit: contain;
+}
+
 .checkout__left {
   width: 100%;
   margin-right: 20px;
@@ -40,4 +56,26 @@
   align-items: flex-start;
   font-size: 17px;
   margin-right: 10px;
+}
+
+.checkout__footer {
+  margin-top: 30px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.checkout__right {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkout__books {
+  margin-top: 30px;
+  border: 1px solid lightgrey;
+}
+
+.checkout__books > h1 {
+  font-size: 13px;
+  padding: 20px 20px 0px 20px;
+  margin-left: 15px;
 }

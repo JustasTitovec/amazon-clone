@@ -27,7 +27,8 @@ export default {
         'Pairs with both Android and iOS smartphones via bluetooth connection.',
 
         'Included in Box: Galaxy Watch, Additional Strap(Large and Small included), Wireless charging Dock, Travel Adaptor, Quick Start Guide, User Manual (Warranty: 1 Year Standard Parts and Labor)'
-      ]
+      ],
+      quantity: 1
     },
     {
       _id: '12321',
@@ -56,7 +57,8 @@ export default {
         'Android & iOS compatible. Pair with smart devices via Bluetooth. Use the Galaxy Wearable app on Android and Galaxy Buds+ app on iOS to make the most of your earphones.',
 
         'Included Components: 3 Size Eargel'
-      ]
+      ],
+      quantity: 1
     },
     {
       _id: '6543',
@@ -87,7 +89,8 @@ export default {
         'Support and warranty: please refer to user manual, troubleshooting guide, and instructional video before use; the user guide on this detail page covers issues related to the shredder turning on; backed by an AmazonBasics 1-year limited warranty',
 
         'Quality tested: as part of AmazonBasics quality inspections, we test every shredder before shipping it, which means you may see some paper shreds from the testing'
-      ]
+      ],
+      quantity: 1
     },
     {
       _id: '54232324',
@@ -117,7 +120,8 @@ export default {
         'Works with Alexa and Google Assistant: ask your voice assistant to show your front door, kids room, or anywhere else you have your Wyze Cam',
 
         'Video - H.264 encoding. Day time video: 15 FPS. Night vision: 10 FPS. Night Vision - 4 IR LEDs (850nm) | Illuminates up to 29.6 feet (9 meters)'
-      ]
+      ],
+      quantity: 1
     },
     {
       _id: '67543',
@@ -144,7 +148,8 @@ export default {
         'ALL DAY LISTENING AND CHARGE ON THE GO: The powerful battery within these true wireless bluetooth earphones allow for all day listening. One full charge will deliver 6 hours listening time and will provide an additional 14 hours with multiple charges from the portable compact charging case. Quick charging technology enables 2 hours of listening from just 20 minutes of charge. Charging case features LED lighting to indicate battery life as well as magnetic attraction for easy earbud placement.',
 
         'WATERPROOF PROTECTION: These true wireless in-ear earbuds and charging case are sealed with IPX6 rated protection to endure a minimum of three minutes of powerful jets spraying at least 100 liters of water per minute without water penetrating the hardware. Be worry free from sweat, heavy rain or spilled liquid and enjoy high quality music anywhere at anytime.'
-      ]
+      ],
+      quantity: 1
     },
     {
       _id: '0994394',
@@ -176,7 +181,8 @@ export default {
         'A single battery charge lasts weeks, not hours.',
 
         'Enjoy more books with Audible. Pair with Bluetooth headphones or speakers to switch seamlessly between reading and listening.'
-      ]
+      ],
+      quantity: 1
     },
     {
       _id: '85030349',
@@ -204,7 +210,8 @@ export default {
         '【4K UHD H.265 Amdroid tv box】X96 Max+ TV Box supports 8K*4K@24fps output and 3D function. H.265 video decoding technology saves 50% of bandwidth resources than H.264. This android Box will offer you with smoothing theather-quality UHD video vision.',
 
         '【Easy To Use & Best Service】Connect to power supply, connect to the android box HDMI cable and Wi-Fi/Ethernet, you can watch whatever you like with the powerful android tv box. We strive to provide our customers most qualified products and best service. If you have any problem, please feel free to contact us: amaHideer@hotmail.com'
-      ]
+      ],
+      quantity: 1
     },
     {
       _id: '758493',
@@ -234,7 +241,8 @@ export default {
         'Inputs: 3 HDMI 2.0 with HDCP 2.2 (one with HDMI ARC), 1 USB (media player), RF, Composite, Headphone Jack, Optical Audio Out',
 
         'Compatible with Alexa and Google Assistant'
-      ]
+      ],
+      quantity: 1
     },
     {
       _id: '290348329048',
@@ -259,7 +267,43 @@ export default {
         'Usb 3.0 port; USB 2.0 compatible',
 
         '3-Year manufacturers limited warranty'
-      ]
+      ],
+      quantity: 1
+    }
+  ],
+  books: [
+    {
+      id: 1,
+      title: 'The Last of the Moon Girls',
+      author: 'Barbara Davis',
+      image: 'https://m.media-amazon.com/images/I/51LcH3ndrNL.jpg',
+      rating: 4,
+      price: 6.04
+    },
+    {
+      id: 2,
+      title: 'The Son and Heir: A Memoir ',
+      author: 'Alexander Münninghoff',
+      image: 'https://m.media-amazon.com/images/I/51QcMZ6UAPL.jpg',
+      rating: 5,
+      price: 5.04
+    },
+    {
+      id: 3,
+      title:
+        'One Mistake: A totally unputdownable gripping psychological thriller',
+      author: 'Rona Halsall',
+      image: 'https://m.media-amazon.com/images/I/41zHXvG85SL.jpg',
+      rating: 5,
+      price: 5.44
+    },
+    {
+      id: 4,
+      title: 'Cleo McDougal Regrets Nothing: A Novel',
+      author: 'Allison Winn Scotch',
+      image: 'https://m.media-amazon.com/images/I/51Mhuzs8yuL.jpg',
+      rating: 5,
+      price: 5.74
     }
   ]
 };

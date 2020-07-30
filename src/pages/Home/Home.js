@@ -45,6 +45,7 @@ function Home() {
                 image={product.image}
                 details={product.details}
                 key={i}
+                quantity={product.quantity}
               />
             );
           })}
