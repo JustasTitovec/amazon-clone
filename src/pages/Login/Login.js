@@ -34,7 +34,7 @@ export default function Login() {
       <Link to="/">
         <img
           className="login__logo"
-          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
           alt="logo"
         />
       </Link>

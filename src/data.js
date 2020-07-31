@@ -269,6 +269,92 @@ export default {
         '3-Year manufacturers limited warranty'
       ],
       quantity: 1
+    },
+    {
+      _id: '4638294',
+      title:
+        'Lenovo Flex 5 14" 2-in-1 Laptop, 14.0" FHD (1920 x 1080) Touch Display, AMD Ryzen 5 4500U Processor',
+      price: 899.99,
+      rating: 4,
+      image: [
+        'https://images-na.ssl-images-amazon.com/images/I/81x%2B9uFY1QL._AC_SL1500_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/71rUiZ1OLoL._AC_SL1500_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/71VoLjTu8OL._AC_SL1500_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/81ZtENkaviL._AC_SL1500_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/71zIgioO4aL._AC_SL1500_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/81IUcTEIYbL._AC_SL1500_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/71Ji9RvCfXL._AC_SL1500_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/718puVDixnL._AC_SL1500_.jpg'
+      ],
+      details: [
+        'Thin, light, and stylish – This 2-in-1 laptop weighs just 3.64 lbs and is only 0.82" thick. Its soft and comfortable to the touch, with a durable paint that creates a better user experience. Digital pen included',
+
+        'Powered by the AMD Ryzen™ 5 4500U mobile processor with Radeon™ graphics, you have the performance to do more, from anywhere. With more cores, you will experience responsiveness that leaps into action for productivity, gaming, and content creation',
+
+        'The 10-point, 14-inch FHD (1920 x 1080) IPS touchscreen allows the Lenovo Flex 5 14" 2-in-1 laptop to be comfortable, fun, and easy to use. It is also great to look at, with 4-side narrow bezels',
+
+        'The 360⁰ hinge lets you use your 2-in-1 touchscreen laptop in whatever mode works best for you! Use it in Laptop mode for everyday computing, Tent mode for sharing things, Stand mode for binge-watching, or Tablet mode for more intuitive interaction',
+
+        'Enjoy up to 10 hours of battery life, plus quick charge to 80% in just 1 hour'
+      ],
+      quantity: 1
+    },
+    {
+      _id: '748930',
+      title:
+        'VacLife Air Compressor Tire Inflator, DC 12V Portable Air Compressor for Car Tires, Auto Tire Pump with LED Light, Digital Air Pump for Car Tires, Bicycles and Other Inflatables',
+      price: 599.99,
+      rating: 5,
+      image: [
+        'https://images-na.ssl-images-amazon.com/images/I/51RAq9mXSaL._AC_SL1000_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/516xffI6EHL._AC_SL1000_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/61w3Aoaz7FL._AC_SL1000_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/71qKDNaN3GL._AC_SL1101_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/61zuFx3GggL._AC_SL1000_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/61f8JUu5jKL._AC_SL1000_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/61iBYr17SUL._AC_SL1000_.jpg'
+      ],
+      details: [
+        '[FAST INFLATING SPEED & EASY TO USE] This auto tire air compressor can inflate your standard car tire fastest in seconds. Simply plug it into the 12V power outlet in your car and attach the hose to the tire you wish to inflate. You can just flip the switch and the car air compressor will do all the work for you.',
+
+        '[AUTO SHUT OFF] This car air pump uses simple and useful technology. You can preset the pressure you expect, and when the inflator tire reaches the desired pressure, the car air compressor will automatically turn off. So, you do not have to worry about over inflating or low tire pressure anymore. VacLife will convoy your safety all the way.',
+
+        '[LED LIGHTING & 13 FEET-LONG RANGE] Our electric air pump comes with the LED light can help you to inflate your tire AT NIGHT. Besides, the 13 ft power cable is long enough for you to reach the front and rear tire with ease. A long cable eliminates the need to unplug it each time you switch from one tire to the next.',
+
+        'Enjoy up to 10 hours of battery life, plus quick charge to 80% in just 1 hour'
+      ],
+      quantity: 1
+    },
+    {
+      _id: '93483409',
+      title:
+        'American Tourister Moonlight Hardside Expandable Luggage with Spinner Wheels, Rose Gold, Checked-Large 28-Inch',
+      price: 71.99,
+      rating: 5,
+      image: [
+        'https://images-na.ssl-images-amazon.com/images/I/719mNy9w-ML._AC_SL1500_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/6197mA0jMtL._AC_SL1500_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/7142yARteeL._AC_SL1500_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/71wE0ztO0aL._AC_SL1500_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/71wA6suZd2L._AC_SL1500_.jpg',
+        'https://images-na.ssl-images-amazon.com/images/I/81yCq3sMRtL._AC_SL1500_.jpg'
+      ],
+      details: [
+        '28" SPINNER LUGGAGE maximizes your packing power and is the ideal checked bag for longer trips',
+
+        'PACKING DIMENSIONS: 28" x 19.5" x 12.5", OVERALL DIMENSIONS: 30” x 19.5”x 12.5”, Weight: 11.5 pounds',
+
+        '10 YEAR LIMITED WARRANTY: American Tourister products are rigorously tested to ensure our products meet stringent standards; This bag comes with a 10 year warranty against defects in materials and workmanship',
+
+        'BOOK OPENING CASE with mesh divider and cross straps in main compartment with a zipped modesty pocket',
+
+        'FOUR, MULTI DIRECTIONAL OVERSIZED SPINNER WHEELS for effortless mobility, re engineered lightweight',
+
+        '1.5" EXPANSION to allow you to pack more items and compression keeps clothing neatly pressed',
+
+        'PUSH BUTTON locking handles provides easy maneuverability when extended out from the suitcase, and stores neatly inside when not in use'
+      ],
+      quantity: 1
     }
   ],
   books: [

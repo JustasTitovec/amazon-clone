@@ -5,13 +5,13 @@ import Header from '../src/components/Header/Header';
 import Home from './pages/Home/Home.js';
 import Checkout from './pages/Checkout/Checkout.js';
 import Login from './pages/Login/Login.js';
-import { useStateValue } from './state/StateProvider';
+import { useStateValue } from '../src/state/StateProvider';
 import { auth } from './firebase';
 import Footer from '../src/components/Footer/Footer';
 import Details from '../src/components/Details/Details';
 
 function App() {
-  const [{ dispatch }] = useStateValue();
+  const [{ basket }, dispatch] = useStateValue();
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged(authUser => {
@@ -30,26 +30,25 @@ function App() {
     return () => {
       unsubscribe();
     };
-  }, [dispatch]);
+  }, []);
 
   return (
     <Router>
       <div className="app">
         <Switch>
-          <Route exact path="/checkout">
+          <Route path="/checkout">
             <Header />
             <Checkout />
             <Footer />
           </Route>
           <Route
-            exact
             path="/details/:id"
             render={props => <Details {...props} />}
           ></Route>
-          <Route exact path="/login">
+          <Route path="/login">
             <Login />
           </Route>
-          <Route exact path="/">
+          <Route path="/">
             <Home />
             <Footer />
           </Route>
