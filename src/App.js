@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import './App.css';
+import './App.scss';
 import Header from '../src/components/Header/Header';
 import Home from './pages/Home/Home.js';
 import Checkout from './pages/Checkout/Checkout.js';

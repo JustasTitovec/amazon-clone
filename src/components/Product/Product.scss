@@ -1,3 +1,5 @@
+@import '../../styles/_variables.scss';
+
 .product__rating {
   display: flex;
 }
@@ -14,17 +16,17 @@
   padding: 20px;
   width: 28%;
   margin: 10px;
-}
-
-.product > img {
-  width: 100%;
-  max-height: 200px;
-  object-fit: contain;
-  margin-bottom: 15px;
-}
-
-.product__info > p {
-  color: black;
+  img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  button {
+    background-color: $primary-color;
+    border: 1px solid;
+    border-color: $border-color;
+  }
 }
 
 .product__price {
@@ -34,10 +36,7 @@
 .product__info {
   height: 100px;
   margin-bottom: 15px;
-}
-
-.product > button {
-  background-color: #f0c14b;
-  border: 1px solid;
-  border-color: #a88734 #9c7e31 #846a29;
+  p {
+    color: black;
+  }
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import './TopBooks.css';
+import './TopBooks.scss';
 
 function TopBooks({ id, title, author, image, rating, price }) {
   return (

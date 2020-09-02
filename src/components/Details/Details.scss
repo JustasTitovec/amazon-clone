@@ -1,3 +1,5 @@
+@import '../../styles/_variables.scss';
+
 .details {
   display: flex;
   height: 100%;
@@ -17,17 +19,16 @@
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 40px;
-}
-.details__gallery > img {
-  object-fit: contain;
-  margin: 5px;
-  height: 50px;
-  width: 50px;
-  border: 1px solid black;
-}
-
-.details__gallery > img:hover {
-  cursor: pointer;
+  img {
+    object-fit: contain;
+    margin: 5px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    &:hover {
+      cursor: pointer;
+    }
+  }
 }
 
 .details__rating {
@@ -42,14 +43,12 @@
 
 .details__price {
   margin-top: 15px;
-
   font-size: 18px;
 }
 
 .details__description {
   margin-top: 15px;
   line-height: 20px;
-
   font-size: 13px;
 }
 
@@ -58,15 +57,14 @@
   flex-direction: column;
   width: 650px;
   margin: 20px;
-}
-
-.details__info > button {
-  width: 100px;
-  margin-top: 15px;
-  height: 30px;
-  background-color: #f0c14b;
-  border: 1px solid;
-  border-color: #a88734 #9c7e31 #846a29;
+  button {
+    width: 100px;
+    margin-top: 15px;
+    height: 30px;
+    background-color: $primary-color;
+    border: 1px solid;
+    border-color: $border-color;
+  }
 }
 
 .details__imageHover:hover {

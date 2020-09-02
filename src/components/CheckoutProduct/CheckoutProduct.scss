@@ -1,3 +1,5 @@
+@import '../../styles/_variables.scss';
+
 .checkoutProduct {
   display: flex;
   margin-bottom: 20px;
@@ -14,13 +16,12 @@
 
 .checkoutProduct__info {
   padding-left: 20px;
-}
-
-.checkoutProduct__info > button {
-  background: #f0c14b;
-  border: 1px solid;
-  margin-top: 10px;
-  border-color: #a88734 #9c7e31 #846a29;
+  button {
+    background: $primary-color;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: $border-color;
+  }
 }
 
 .checkoutProduct__rating {
@@ -54,10 +55,4 @@
 
 .checkoutProduct__quantity_select:hover {
   background-color: rgb(211, 211, 211);
-}
-
-.checkoutProduct__info > p {
-  font-size: 12px;
-  color: #067d62;
-  margin: 5px 0px;
 }

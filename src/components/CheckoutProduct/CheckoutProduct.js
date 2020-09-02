@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './CheckoutProduct.css';
+import './CheckoutProduct.scss';
 import { useStateValue } from '../../state/StateProvider';
 import { Link } from 'react-router-dom';
 

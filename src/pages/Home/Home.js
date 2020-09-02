@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Home.css';
+import './Home.scss';
 import Product from '../../components/Product/Product';
 import Header from '../../components/Header/Header';
 import data from '../../data.js';

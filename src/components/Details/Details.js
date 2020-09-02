@@ -3,7 +3,7 @@ import data from '../../data.js';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import { useStateValue } from '../../state/StateProvider.js';
-import './Details.css';
+import './Details.scss';
 
 function Details(props) {
   const [{ basket }, dispatch] = useStateValue();

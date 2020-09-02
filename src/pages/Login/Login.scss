@@ -10,20 +10,18 @@
   flex-direction: column;
   padding: 20px;
   border: 1px solid lightgrey;
-}
-
-.login__container > h1 {
-  font-weight: 500;
-  margin-bottom: 20px;
+  h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  p {
+    margin-top: 15px;
+    font-size: 12px;
+  }
 }
 
 .login__container > form > h5 {
   margin-bottom: 5px;
-}
-
-.login__container > p {
-  margin-top: 15px;
-  font-size: 12px;
 }
 
 .login__container > form > input {

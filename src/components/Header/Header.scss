@@ -1,3 +1,5 @@
+@import '../../styles/_variables.scss';
+
 .header {
   background-color: Black;
   display: flex;
@@ -16,7 +18,7 @@
 }
 
 .header__searchIcon {
-  background-color: #cd9042;
+  background-color: $primary-color;
   padding: 5px;
   height: 22px !important;
 }
